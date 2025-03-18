@@ -594,11 +594,8 @@ try:
         rows.writerow(header)
         rows.writerows(out)
 except PermissionError:
-    input(f"""'''CLOSE THE GODDAMN CSV FILE OR SO HELP GOD.....
-          
-          
-          
-          Sorry, got heated a bit there.Close the CSV and then press Enter.'''""")
+    input(f"""'''Please close the Loader and Dumper.csv to proceed and press any key.....
+           Or Press any key to escape.""")
 finally:
     with open(path.join(current_dir,"loader and dumper.csv"),"w",newline="") as f:
         rows = writer(f,dialect="excel",delimiter=",")
