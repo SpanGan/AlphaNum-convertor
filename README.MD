@@ -1,6 +1,12 @@
 
 The main.py file automatically converts aplhpa.num pattern to a reference alpha.num pattern in text. You can exclude parts of the pattern that you want preserved. For example, if you want to copy an eyecolor  but want to preserve the rest  of the sequnces being changed.
 
+Sequence = Format: aa.000.000.000.000_ab_....._fv1.0 
+
+Opertaion 1) Original   aa23.100.222.133.666
+          2) Reference  aa1.0.0.0.0
+          3) Change 1st and 3rd numeral to reference
+          4) Output     aa1.100.0.133.666
 ***Components***
 #Jsons used as general refrence.
 1) Menu_names.json
