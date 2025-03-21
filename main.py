@@ -445,7 +445,7 @@ Choose option by index(integer only): """)
         print(label_exclude)    
         
         
-        #I want to match Ribbons xm949 - xm999, HairEx xr949 - xr999 to a color specified by user 
+        """"
         ribon_Hair_belt_Choice:str = str(input("Do want to match specified 1) Ribbons , 2)HairEx or 3) Belts to a color? y to accept, anykey to skip."))
         
         if ribon_Hair_belt_Choice.isalpha():
@@ -461,7 +461,7 @@ Choose option by index(integer only): """)
                 del a
                 print(color_changer)    
         
-        
+        """
 
         """Specify body colour work in progress."""
         
