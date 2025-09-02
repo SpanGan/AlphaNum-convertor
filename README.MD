@@ -15,10 +15,12 @@ Operation
 1. Json’s used as general reference.
     
 	i. Menu_names.json
+
    	ii. Parts_Names.json
 
 2. CSV where the results of the conversion will appear.
-    	i. Loader and dumper.csv
+    
+	i. Loader and dumper.csv
 
 4. main.py
 
@@ -36,10 +38,10 @@ Then I can exclude everything but eye colour.
 
 5. **The program will ask you to type in a choice from the given list**(*Case is ignored.*). It will also try to match you inputs by order of letters, so feel free to only type parts of the word. 
 **Press enter to confirm. Leave empty to move to next step** 
-E.g.:   
-	a. [[Pose],[FootPose],[Eye],[Hair]....]
-        b. [[Pose,aa],[Pose,ab],.....]
-        c. [[Pose,aa,LeftArmLength_0],.....]
+- ### Example: 
+	- [[Pose],[FootPose],[Eye],[Hair]....]
+	- [[Pose,aa],[Pose,ab],.....]
+	- [[Pose,aa,LeftArmLength_0],.....]
 
 6. Now, a list of numbered matches will be shown. Type in the number  of the option you want and press enter to confirm. **Here, you can make multiple choices. Leave empty and press enter to continue. You will return to the above choice.**   
 E.g.:*for "foot"  typed=*
